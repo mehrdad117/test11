@@ -72,11 +72,6 @@ psychoJS.start({
     {'name': 'stim/centre.png', 'path': 'stim/centre.png'},
     {'name': 'stim/blank.png', 'path': 'stim/blank.png'},
     {'name': 'stim/lower.png', 'path': 'stim/lower.png'},
-    {'name': 'stim/congRight.png', 'path': 'stim/congRight.png'},
-    {'name': 'stim/incongLeft.png', 'path': 'stim/incongLeft.png'},
-    {'name': 'stim/incongRight.png', 'path': 'stim/incongRight.png'},
-    {'name': 'stim/neutralLeft.png', 'path': 'stim/neutralLeft.png'},
-    {'name': 'stim/neutralRight.png', 'path': 'stim/neutralRight.png'},
     {'name': 'background.png', 'path': 'background.png'},
     {'name': 'stim/fix.png', 'path': 'stim/fix.png'},
     {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
@@ -1639,6 +1634,37 @@ function EndRoutineEnd(snapshot) {
       }
     });
     psychoJS.experiment.addData('End.stopped', globalClock.getTime());
+    // Generate filename for results
+    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
+    
+    // Extract data object from experiment
+    let dataObj = psychoJS._experiment._trialsData;
+    
+    // Convert data object to CSV
+    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
+        return Object.values(it).toString()
+    }).join('\n');
+    
+    // Send data to Google Sheets
+    console.log('Saving data...');
+    fetch('https://script.google.com/macros/s/AKfycbz4QWyOV7LnOVOlQVCe40lifZQYOmd65Btgi_EtAePusx9bwMP3pZpuu3GjZ1HdtLaq/exec', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            Accept: '*/*',
+        },
+        body: JSON.stringify({
+            filename: filename,
+            data: data,
+        }),
+    }).then(response => response.json()).then(data => {
+        console.log(data);
+        quitPsychoJS();
+    }).catch(error => {
+        console.error('Error:', error);
+        quitPsychoJS();
+    });
+    
     // the Routine "End" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     

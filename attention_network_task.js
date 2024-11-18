@@ -1494,69 +1494,6 @@ function EndRoutineBegin(snapshot) {
     EndMaxDurationReached = false;
     // update component parameters for each repeat
     inst1textbox_3.setText('لطفا تا ذخیره نتایج صبر کنید...');
-    // Disable downloading results to browser
-    psychoJS._saveResults = 0; 
-    
-    // Generate filename for results
-    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
-    
-    // Extract and organize data
-    let organizedData = psychoJS._experiment._trialsData.map(trialData => {
-        return {
-            'instr.started': trialData['instr.started'] || '',
-            'instr.stopped': trialData['instr.stopped'] || '',
-            'participant': trialData['participant'] || '',
-            'session': trialData['session'] || '',
-            'date': trialData['date'] || '',
-            'expName': trialData['expName'] || '',
-            'psychopyVersion': trialData['psychopyVersion'] || '',
-            'OS': trialData['OS'] || '',
-            'frameRate': trialData['frameRate'] || '',
-            'instr2.started': trialData['instr2.started'] || '',
-            'instr2.stopped': trialData['instr2.stopped'] || '',
-            'fixation.started': trialData['fixation.started'] || '',
-            'fixation.stopped': trialData['fixation.stopped'] || '',
-            'fixDuration': trialData['fixDuration'] || '',
-            'trial.started': trialData['trial.started'] || '',
-            'trial.stopped': trialData['trial.stopped'] || '',
-            'resp.keys': trialData['resp.keys'] || '',
-            'resp.corr': trialData['resp.corr'] || '',
-            'resp.rt': trialData['resp.rt'] || '',
-            'resp.duration': trialData['resp.duration'] || '',
-            'feedback.started': trialData['feedback.started'] || '',
-            'feedback.stopped': trialData['feedback.stopped'] || '',
-            'trials.thisRepN': trialData['trials.thisRepN'] || '',
-            'trials.thisTrialN': trialData['trials.thisTrialN'] || '',
-            'trials.thisN': trialData['trials.thisN'] || '',
-            'trials.thisIndex': trialData['trials.thisIndex'] || '',
-            'trials.ran': trialData['trials.ran'] || '',
-            'cue': trialData['cue'] || '',
-            'tar': trialData['tar'] || '',
-            'corrAns': trialData['corrAns'] || '',
-            'targOrientation': trialData['targOrientation'] || ''
-        };
-    });
-    
-    // Convert organized data to CSV
-    let csvData = [Object.keys(organizedData[0])].concat(organizedData.map(it => Object.values(it).toString())).join('\n');
-    
-    // Send data to OSF via DataPipe
-    fetch('https://pipe.jspsych.org/api/data', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-            Accept: '*/*',
-        },
-        body: JSON.stringify({
-            experimentID: 'VgIiMiyNwW6P', // Your DataPipe experiment ID
-            filename: filename,
-            data: csvData,
-        }),
-    }).then(response => response.json()).then(data => {
-        console.log(data);
-        quitPsychoJS();
-    });
-    
     psychoJS.experiment.addData('End.started', globalClock.getTime());
     EndMaxDuration = null
     // keep track of which components have finished
@@ -1635,36 +1572,26 @@ function EndRoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('End.stopped', globalClock.getTime());
-    // Generate filename for results
-    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
+    let outputData = {
+        headers: ["cue", "tar", "corrAns", "targOrientation", "thisN", "thisTrialN", "thisRepN", "trials.thisRepN", "trials.thisTrialN", "trials.thisN", "trials.thisIndex", "thisRow.t", "notes", "instr.started", "startresp.started", "inst1textbox.started", "instr.stopped", "instr2.started", "startresp2.started", "inst1textbox_2.started", "instr2.stopped", "fixation.started", "image.started", "trial_counter_2.started", "reminder.started", "image.stopped", "trial_counter_2.stopped", "reminder.stopped", "fixation.stopped", "trial.started", "text_fp1.started", "cues.started", "fixationshort.started", "trial_counter.started", "reminder_2.started", "text_fp2.started", "text_fp1.stopped", "cues.stopped", "target.started", "resp.started", "fixationshort.stopped", "participant", "session", "date", "expName", "psychopyVersion", "frameRate", "expStart"],
+        rows: [
+            // Add trial data rows here as arrays
+        ]
+    };
     
-    // Extract data object from experiment
-    let dataObj = psychoJS._experiment._trialsData;
+    // Add your rows programmatically here (loop through trials, etc.)
     
-    // Convert data object to CSV
-    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
-        return Object.values(it).toString()
-    }).join('\n');
-    
-    // Send data to Google Sheets
-    console.log('Saving data...');
-    fetch('https://script.google.com/macros/s/AKfycbz4QWyOV7LnOVOlQVCe40lifZQYOmd65Btgi_EtAePusx9bwMP3pZpuu3GjZ1HdtLaq/exec', {
+    // Send data to Google Apps Script
+    fetch('https://script.google.com/macros/s/AKfycbxCv3vSZzdPwzjB8iGzLeroj-Oj8FSnNAVZzTWmwokvrOErR6HMMDd3UtZ2TFrTN6O_/exec', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            Accept: '*/*',
+            'Content-Type': 'application/json'
         },
-        body: JSON.stringify({
-            filename: filename,
-            data: data,
-        }),
-    }).then(response => response.json()).then(data => {
-        console.log(data);
-        quitPsychoJS();
-    }).catch(error => {
-        console.error('Error:', error);
-        quitPsychoJS();
-    });
+        body: JSON.stringify(outputData)
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
     
     // the Routine "End" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();

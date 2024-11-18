@@ -1,0 +1,515 @@
+6.4774 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+6.4781 	INFO 	Loaded monitor calibration from ['2022_05_17 21:18']
+6.8733 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000251C1F96BC0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000251C1F95D20>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000251C2CF4250>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 240.0], screen=0, size=array([800, 600]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.8734 	EXP 	window1: backgroundImage = ''
+6.8734 	EXP 	window1: backgroundFit = 'none'
+6.8826 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8833 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8839 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8848 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8856 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8861 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8869 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8878 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8884 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8892 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8898 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8904 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8911 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8916 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8923 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8929 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8933 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8937 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8946 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8950 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.8957 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.9180 	DEBUG 	Upload of Texture Font fontname complete
+6.9241 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9251 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9259 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9261 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.9318 	DEBUG 	Upload of Texture Font fontname complete
+6.9337 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.9337 	EXP 	window1: recordFrameIntervals = False
+7.0137 	EXP 	window1: recordFrameIntervals = True
+7.0915 	EXP 	Screen (0) actual frame rate measured at 141.25Hz
+7.0916 	EXP 	window1: recordFrameIntervals = False
+7.0965 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0969 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0976 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0985 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.0993 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1001 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1006 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1013 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1021 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1029 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1032 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.1038 	DEBUG 	Upload of Texture Font fontname complete
+7.1282 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+10.0233 	INFO 	keyboard.Keyboard is using iohub backend.
+10.0233 	INFO 	keyboard.Keyboard is using iohub backend.
+10.0234 	INFO 	keyboard.Keyboard is using iohub backend.
+10.0234 	INFO 	keyboard.Keyboard is using iohub backend.
+10.0234 	EXP 	attention_network_task: status = STARTED
+10.2424 	EXP 	Created background = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+10.2490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2503 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2524 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2536 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2550 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2559 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2567 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2579 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2591 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2600 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2611 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2623 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2636 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2646 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2657 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2666 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2675 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2687 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2700 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2709 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2721 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2732 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2745 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2759 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2771 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2788 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2801 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2813 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2827 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2848 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2862 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2877 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2903 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.2909 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.2918 	DEBUG 	Upload of Texture Font fontname complete
+10.4711 	EXP 	Created background_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+10.4768 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.4798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.4813 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.4827 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+10.4842 	DEBUG 	Uploading Texture Font fontname to graphics card
+10.4851 	DEBUG 	Upload of Texture Font fontname complete
+10.6767 	EXP 	Created background_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+10.6883 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.8923 	EXP 	Created background_4 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_4', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+10.8971 	EXP 	Created cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='cues', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.9009 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='target', opacity=1, ori=1.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+10.9033 	EXP 	Created fixationshort = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='fixationshort', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+11.0996 	EXP 	Created background_5 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_5', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+11.2029 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+11.4132 	EXP 	Created background_6 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='background.png', interpolate=True, mask=None, maskParams=None, name='background_6', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([2. , 1.5]), texRes=128.0, units='height', win=Window(...))
+0.0339 	EXP 	inst1textbox: autoLog = True
+0.0339 	EXP 	inst1textbox_2: autoLog = True
+0.0339 	EXP 	trial_counter_2: autoLog = True
+0.0339 	EXP 	reminder: autoLog = True
+0.0339 	EXP 	trial_counter: autoLog = True
+0.0339 	EXP 	reminder_2: autoLog = True
+0.0339 	EXP 	trial_counter_3: autoLog = True
+0.0339 	EXP 	reminder_3: autoLog = True
+0.0339 	EXP 	inst1textbox_3: autoLog = True
+0.0820 	INFO 	Keyboard events cleared
+0.0817 	EXP 	background: autoDraw = True
+0.0817 	EXP 	inst1textbox: autoDraw = True
+0.8381 	DATA 	Mouse: Left button down, pos=(359,308)
+0.8938 	DATA 	Mouse:  Left button up, pos=(359,308)
+2.0614 	DATA 	Keypress: space
+2.0770 	INFO 	Keyboard events cleared
+2.0766 	EXP 	background: autoDraw = False
+2.0766 	EXP 	inst1textbox: autoDraw = False
+2.0766 	EXP 	background_2: autoDraw = True
+2.0766 	EXP 	inst1textbox_2: autoDraw = True
+2.2581 	DEBUG 	Read excel file with openpyxl: cond.xlsx
+2.2585 	EXP 	Imported cond.xlsx as conditions, 7 conditions, 4 params
+2.2598 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'cue': 'stim/blank.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.2614 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.2626 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.2638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.2641 	DEBUG 	Uploading Texture Font fontname to graphics card
+2.2647 	DEBUG 	Upload of Texture Font fontname complete
+2.3376 	DATA 	Keypress: space
+2.3557 	EXP 	background_2: autoDraw = False
+2.3557 	EXP 	inst1textbox_2: autoDraw = False
+2.3557 	EXP 	background_3: autoDraw = True
+2.3557 	EXP 	image: autoDraw = True
+2.3557 	EXP 	trial_counter_2: autoDraw = True
+2.3557 	EXP 	reminder: autoDraw = True
+2.4699 	DATA 	Keypress: space
+2.9917 	EXP 	background_3: autoDraw = False
+2.9917 	EXP 	image: autoDraw = False
+2.9917 	EXP 	trial_counter_2: autoDraw = False
+2.9917 	EXP 	reminder: autoDraw = False
+2.9917 	EXP 	background_3: autoDraw = False
+2.9917 	EXP 	image: autoDraw = False
+2.9917 	EXP 	trial_counter_2: autoDraw = False
+2.9917 	EXP 	reminder: autoDraw = False
+2.9917 	EXP 	cues: image = 'stim/blank.png'
+2.9917 	EXP 	target: ori = 0.0
+2.9917 	EXP 	target: image = 'stim/congLeft.png'
+2.9917 	EXP 	background_4: autoDraw = True
+2.9917 	EXP 	cues: autoDraw = True
+2.9917 	EXP 	fixationshort: autoDraw = True
+2.9917 	EXP 	trial_counter: autoDraw = True
+2.9917 	EXP 	reminder_2: autoDraw = True
+3.0899 	EXP 	cues: autoDraw = False
+3.3962 	INFO 	Keyboard events cleared
+3.3958 	EXP 	target: autoDraw = True
+3.4929 	EXP 	fixationshort: autoDraw = False
+5.1042 	EXP 	target: autoDraw = False
+5.3549 	EXP 	background_4: autoDraw = False
+5.3549 	EXP 	cues: autoDraw = False
+5.3549 	EXP 	target: autoDraw = False
+5.3549 	EXP 	fixationshort: autoDraw = False
+5.3549 	EXP 	trial_counter: autoDraw = False
+5.3549 	EXP 	reminder_2: autoDraw = False
+5.3549 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+5.3549 	EXP 	text: height = 0.04
+5.3549 	EXP 	text: height = 0.04
+5.3549 	EXP 	text: height = 0.04
+5.3549 	EXP 	text: text = 'Remember to respond!'
+5.3549 	EXP 	background_5: autoDraw = True
+5.3549 	EXP 	text: autoDraw = True
+5.3549 	EXP 	trial_counter_3: autoDraw = True
+5.3549 	EXP 	reminder_3: autoDraw = True
+6.1057 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'cue': 'stim/lower.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+6.1074 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1080 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1092 	DEBUG 	Upload of Texture Font fontname complete
+6.1201 	EXP 	background_5: autoDraw = False
+6.1201 	EXP 	text: autoDraw = False
+6.1201 	EXP 	trial_counter_3: autoDraw = False
+6.1201 	EXP 	reminder_3: autoDraw = False
+6.1201 	EXP 	background_3: autoDraw = True
+6.1201 	EXP 	image: autoDraw = True
+6.1201 	EXP 	trial_counter_2: autoDraw = True
+6.1201 	EXP 	reminder: autoDraw = True
+6.6251 	EXP 	background_3: autoDraw = False
+6.6251 	EXP 	image: autoDraw = False
+6.6251 	EXP 	trial_counter_2: autoDraw = False
+6.6251 	EXP 	reminder: autoDraw = False
+6.6251 	EXP 	background_3: autoDraw = False
+6.6251 	EXP 	image: autoDraw = False
+6.6251 	EXP 	trial_counter_2: autoDraw = False
+6.6251 	EXP 	reminder: autoDraw = False
+6.6251 	EXP 	cues: image = 'stim/lower.png'
+6.6251 	EXP 	target: ori = 180.0
+6.6251 	EXP 	target: image = 'stim/congLeft.png'
+6.6251 	EXP 	background_4: autoDraw = True
+6.6251 	EXP 	cues: autoDraw = True
+6.6251 	EXP 	fixationshort: autoDraw = True
+6.6251 	EXP 	trial_counter: autoDraw = True
+6.6251 	EXP 	reminder_2: autoDraw = True
+6.7221 	EXP 	cues: autoDraw = False
+7.1112 	INFO 	Keyboard events cleared
+7.1108 	EXP 	target: autoDraw = True
+7.1245 	EXP 	fixationshort: autoDraw = False
+8.7622 	DATA 	Keypress: right
+8.7701 	EXP 	background_4: autoDraw = False
+8.7701 	EXP 	cues: autoDraw = False
+8.7701 	EXP 	target: autoDraw = False
+8.7701 	EXP 	fixationshort: autoDraw = False
+8.7701 	EXP 	trial_counter: autoDraw = False
+8.7701 	EXP 	reminder_2: autoDraw = False
+8.7701 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+8.7701 	EXP 	text: height = 0.04
+8.7701 	EXP 	text: height = 0.04
+8.7701 	EXP 	text: height = 0.04
+8.7701 	EXP 	text: text = 'Correct! Your RT is : 1624ms'
+8.7701 	EXP 	background_5: autoDraw = True
+8.7701 	EXP 	text: autoDraw = True
+8.7701 	EXP 	trial_counter_3: autoDraw = True
+8.7701 	EXP 	reminder_3: autoDraw = True
+9.7516 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+9.7534 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+9.7536 	DEBUG 	Uploading Texture Font fontname to graphics card
+9.7546 	DEBUG 	Upload of Texture Font fontname complete
+9.7657 	EXP 	background_5: autoDraw = False
+9.7657 	EXP 	text: autoDraw = False
+9.7657 	EXP 	trial_counter_3: autoDraw = False
+9.7657 	EXP 	reminder_3: autoDraw = False
+9.7657 	EXP 	background_3: autoDraw = True
+9.7657 	EXP 	image: autoDraw = True
+9.7657 	EXP 	trial_counter_2: autoDraw = True
+9.7657 	EXP 	reminder: autoDraw = True
+9.9638 	DATA 	Keypress: left
+10.3260 	EXP 	background_3: autoDraw = False
+10.3260 	EXP 	image: autoDraw = False
+10.3260 	EXP 	trial_counter_2: autoDraw = False
+10.3260 	EXP 	reminder: autoDraw = False
+10.3260 	EXP 	background_3: autoDraw = False
+10.3260 	EXP 	image: autoDraw = False
+10.3260 	EXP 	trial_counter_2: autoDraw = False
+10.3260 	EXP 	reminder: autoDraw = False
+10.3260 	EXP 	cues: image = 'stim/both.png'
+10.3260 	EXP 	target: ori = 0.0
+10.3260 	EXP 	target: image = 'stim/congLeft.png'
+10.3260 	EXP 	background_4: autoDraw = True
+10.3260 	EXP 	cues: autoDraw = True
+10.3260 	EXP 	fixationshort: autoDraw = True
+10.3260 	EXP 	trial_counter: autoDraw = True
+10.3260 	EXP 	reminder_2: autoDraw = True
+10.4236 	EXP 	cues: autoDraw = False
+10.5244 	DATA 	Keypress: left
+10.8045 	INFO 	Keyboard events cleared
+10.8041 	EXP 	target: autoDraw = True
+10.8316 	EXP 	fixationshort: autoDraw = False
+10.9625 	DATA 	Keypress: left
+10.9704 	EXP 	background_4: autoDraw = False
+10.9704 	EXP 	cues: autoDraw = False
+10.9704 	EXP 	target: autoDraw = False
+10.9704 	EXP 	fixationshort: autoDraw = False
+10.9704 	EXP 	trial_counter: autoDraw = False
+10.9704 	EXP 	reminder_2: autoDraw = False
+10.9704 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+10.9704 	EXP 	text: height = 0.04
+10.9704 	EXP 	text: height = 0.04
+10.9704 	EXP 	text: height = 0.04
+10.9704 	EXP 	text: text = 'Correct! Your RT is : 145ms'
+10.9704 	EXP 	background_5: autoDraw = True
+10.9704 	EXP 	text: autoDraw = True
+10.9704 	EXP 	trial_counter_3: autoDraw = True
+10.9704 	EXP 	reminder_3: autoDraw = True
+11.9662 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'cue': 'stim/both.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+11.9681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+11.9684 	DEBUG 	Uploading Texture Font fontname to graphics card
+11.9692 	DEBUG 	Upload of Texture Font fontname complete
+11.9805 	EXP 	background_5: autoDraw = False
+11.9805 	EXP 	text: autoDraw = False
+11.9805 	EXP 	trial_counter_3: autoDraw = False
+11.9805 	EXP 	reminder_3: autoDraw = False
+11.9805 	EXP 	background_3: autoDraw = True
+11.9805 	EXP 	image: autoDraw = True
+11.9805 	EXP 	trial_counter_2: autoDraw = True
+11.9805 	EXP 	reminder: autoDraw = True
+12.3812 	EXP 	background_3: autoDraw = False
+12.3812 	EXP 	image: autoDraw = False
+12.3812 	EXP 	trial_counter_2: autoDraw = False
+12.3812 	EXP 	reminder: autoDraw = False
+12.3812 	EXP 	background_3: autoDraw = False
+12.3812 	EXP 	image: autoDraw = False
+12.3812 	EXP 	trial_counter_2: autoDraw = False
+12.3812 	EXP 	reminder: autoDraw = False
+12.3812 	EXP 	cues: image = 'stim/both.png'
+12.3812 	EXP 	target: ori = 180.0
+12.3812 	EXP 	target: image = 'stim/congLeft.png'
+12.3812 	EXP 	background_4: autoDraw = True
+12.3812 	EXP 	cues: autoDraw = True
+12.3812 	EXP 	fixationshort: autoDraw = True
+12.3812 	EXP 	trial_counter: autoDraw = True
+12.3812 	EXP 	reminder_2: autoDraw = True
+12.4779 	EXP 	cues: autoDraw = False
+12.6355 	DATA 	Keypress: right
+12.8672 	INFO 	Keyboard events cleared
+12.8668 	EXP 	target: autoDraw = True
+12.8808 	EXP 	fixationshort: autoDraw = False
+12.9621 	DATA 	Keypress: left
+12.9710 	EXP 	background_4: autoDraw = False
+12.9710 	EXP 	cues: autoDraw = False
+12.9710 	EXP 	target: autoDraw = False
+12.9710 	EXP 	fixationshort: autoDraw = False
+12.9710 	EXP 	trial_counter: autoDraw = False
+12.9710 	EXP 	reminder_2: autoDraw = False
+12.9710 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+12.9710 	EXP 	text: height = 0.04
+12.9710 	EXP 	text: height = 0.04
+12.9710 	EXP 	text: height = 0.04
+12.9710 	EXP 	text: text = 'Incorrect!'
+12.9710 	EXP 	background_5: autoDraw = True
+12.9710 	EXP 	text: autoDraw = True
+12.9710 	EXP 	trial_counter_3: autoDraw = True
+12.9710 	EXP 	reminder_3: autoDraw = True
+13.9589 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congLeft.png', 'corrAns': 'right', 'targOrientation': 180, 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+13.9607 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+13.9612 	DEBUG 	Uploading Texture Font fontname to graphics card
+13.9623 	DEBUG 	Upload of Texture Font fontname complete
+13.9732 	EXP 	background_5: autoDraw = False
+13.9732 	EXP 	text: autoDraw = False
+13.9732 	EXP 	trial_counter_3: autoDraw = False
+13.9732 	EXP 	reminder_3: autoDraw = False
+13.9732 	EXP 	background_3: autoDraw = True
+13.9732 	EXP 	image: autoDraw = True
+13.9732 	EXP 	trial_counter_2: autoDraw = True
+13.9732 	EXP 	reminder: autoDraw = True
+14.4363 	EXP 	background_3: autoDraw = False
+14.4363 	EXP 	image: autoDraw = False
+14.4363 	EXP 	trial_counter_2: autoDraw = False
+14.4363 	EXP 	reminder: autoDraw = False
+14.4363 	EXP 	background_3: autoDraw = False
+14.4363 	EXP 	image: autoDraw = False
+14.4363 	EXP 	trial_counter_2: autoDraw = False
+14.4363 	EXP 	reminder: autoDraw = False
+14.4363 	EXP 	cues: image = 'stim/centre.png'
+14.4363 	EXP 	target: ori = 180.0
+14.4363 	EXP 	target: image = 'stim/congLeft.png'
+14.4363 	EXP 	background_4: autoDraw = True
+14.4363 	EXP 	cues: autoDraw = True
+14.4363 	EXP 	fixationshort: autoDraw = True
+14.4363 	EXP 	trial_counter: autoDraw = True
+14.4363 	EXP 	reminder_2: autoDraw = True
+14.5328 	EXP 	cues: autoDraw = False
+14.8299 	DATA 	Keypress: right
+14.9224 	INFO 	Keyboard events cleared
+14.9220 	EXP 	target: autoDraw = True
+14.9358 	EXP 	fixationshort: autoDraw = False
+15.2405 	DATA 	Keypress: right
+15.2480 	EXP 	background_4: autoDraw = False
+15.2480 	EXP 	cues: autoDraw = False
+15.2480 	EXP 	target: autoDraw = False
+15.2480 	EXP 	fixationshort: autoDraw = False
+15.2480 	EXP 	trial_counter: autoDraw = False
+15.2480 	EXP 	reminder_2: autoDraw = False
+15.2480 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+15.2480 	EXP 	text: height = 0.04
+15.2480 	EXP 	text: height = 0.04
+15.2480 	EXP 	text: height = 0.04
+15.2480 	EXP 	text: text = 'Correct! Your RT is : 304ms'
+15.2480 	EXP 	background_5: autoDraw = True
+15.2480 	EXP 	text: autoDraw = True
+15.2480 	EXP 	trial_counter_3: autoDraw = True
+15.2480 	EXP 	reminder_3: autoDraw = True
+16.2428 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'cue': 'stim/centre.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+16.2445 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+16.2448 	DEBUG 	Uploading Texture Font fontname to graphics card
+16.2456 	DEBUG 	Upload of Texture Font fontname complete
+16.2570 	EXP 	background_5: autoDraw = False
+16.2570 	EXP 	text: autoDraw = False
+16.2570 	EXP 	trial_counter_3: autoDraw = False
+16.2570 	EXP 	reminder_3: autoDraw = False
+16.2570 	EXP 	background_3: autoDraw = True
+16.2570 	EXP 	image: autoDraw = True
+16.2570 	EXP 	trial_counter_2: autoDraw = True
+16.2570 	EXP 	reminder: autoDraw = True
+16.7142 	EXP 	background_3: autoDraw = False
+16.7142 	EXP 	image: autoDraw = False
+16.7142 	EXP 	trial_counter_2: autoDraw = False
+16.7142 	EXP 	reminder: autoDraw = False
+16.7142 	EXP 	background_3: autoDraw = False
+16.7142 	EXP 	image: autoDraw = False
+16.7142 	EXP 	trial_counter_2: autoDraw = False
+16.7142 	EXP 	reminder: autoDraw = False
+16.7142 	EXP 	cues: image = 'stim/centre.png'
+16.7142 	EXP 	target: ori = 0.0
+16.7142 	EXP 	target: image = 'stim/congLeft.png'
+16.7142 	EXP 	background_4: autoDraw = True
+16.7142 	EXP 	cues: autoDraw = True
+16.7142 	EXP 	fixationshort: autoDraw = True
+16.7142 	EXP 	trial_counter: autoDraw = True
+16.7142 	EXP 	reminder_2: autoDraw = True
+16.8113 	EXP 	cues: autoDraw = False
+16.9557 	DATA 	Keypress: right
+17.2008 	INFO 	Keyboard events cleared
+17.2004 	EXP 	target: autoDraw = True
+17.2138 	EXP 	fixationshort: autoDraw = False
+17.5570 	DATA 	Keypress: left
+17.5604 	EXP 	background_4: autoDraw = False
+17.5604 	EXP 	cues: autoDraw = False
+17.5604 	EXP 	target: autoDraw = False
+17.5604 	EXP 	fixationshort: autoDraw = False
+17.5604 	EXP 	trial_counter: autoDraw = False
+17.5604 	EXP 	reminder_2: autoDraw = False
+17.5604 	EXP 	text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+17.5604 	EXP 	text: height = 0.04
+17.5604 	EXP 	text: height = 0.04
+17.5604 	EXP 	text: height = 0.04
+17.5604 	EXP 	text: text = 'Correct! Your RT is : 341ms'
+17.5604 	EXP 	background_5: autoDraw = True
+17.5604 	EXP 	text: autoDraw = True
+17.5604 	EXP 	trial_counter_3: autoDraw = True
+17.5604 	EXP 	reminder_3: autoDraw = True
+18.5483 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'cue': 'stim/upper.png', 'tar': 'stim/congLeft.png', 'corrAns': 'left', 'targOrientation': 0, 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+18.5597 	EXP 	background_5: autoDraw = False
+18.5597 	EXP 	text: autoDraw = False
+18.5597 	EXP 	trial_counter_3: autoDraw = False
+18.5597 	EXP 	reminder_3: autoDraw = False
+18.5597 	EXP 	background_5: autoDraw = False
+18.5597 	EXP 	text: autoDraw = False
+18.5597 	EXP 	trial_counter_3: autoDraw = False
+18.5597 	EXP 	reminder_3: autoDraw = False
+18.5597 	EXP 	background_3: autoDraw = True
+18.5597 	EXP 	image: autoDraw = True
+18.5597 	EXP 	trial_counter_2: autoDraw = True
+18.5597 	EXP 	reminder: autoDraw = True
+19.0668 	EXP 	background_3: autoDraw = False
+19.0668 	EXP 	image: autoDraw = False
+19.0668 	EXP 	trial_counter_2: autoDraw = False
+19.0668 	EXP 	reminder: autoDraw = False
+19.0668 	EXP 	background_3: autoDraw = False
+19.0668 	EXP 	image: autoDraw = False
+19.0668 	EXP 	trial_counter_2: autoDraw = False
+19.0668 	EXP 	reminder: autoDraw = False
+19.0668 	EXP 	cues: image = 'stim/upper.png'
+19.0668 	EXP 	target: ori = 0.0
+19.0668 	EXP 	target: image = 'stim/congLeft.png'
+19.0668 	EXP 	background_4: autoDraw = True
+19.0668 	EXP 	cues: autoDraw = True
+19.0668 	EXP 	fixationshort: autoDraw = True
+19.0668 	EXP 	trial_counter: autoDraw = True
+19.0668 	EXP 	reminder_2: autoDraw = True
+19.1649 	EXP 	cues: autoDraw = False
+19.5543 	INFO 	Keyboard events cleared
+19.5540 	EXP 	target: autoDraw = True
+19.5680 	EXP 	fixationshort: autoDraw = False
+21.2550 	EXP 	target: autoDraw = False
+21.2689 	EXP 	background_4: autoDraw = False
+21.2689 	EXP 	cues: autoDraw = False
+21.2689 	EXP 	target: autoDraw = False
+21.2689 	EXP 	fixationshort: autoDraw = False
+21.2689 	EXP 	trial_counter: autoDraw = False
+21.2689 	EXP 	reminder_2: autoDraw = False
+21.2689 	EXP 	text: foreColor = <psychopy.colors.Color: black, alpha=1.0>
+21.2689 	EXP 	text: height = 0.04
+21.2689 	EXP 	text: height = 0.04
+21.2689 	EXP 	text: height = 0.04
+21.2689 	EXP 	text: text = 'Remember to respond!'
+21.2689 	EXP 	background_5: autoDraw = True
+21.2689 	EXP 	text: autoDraw = True
+21.2689 	EXP 	trial_counter_3: autoDraw = True
+21.2689 	EXP 	reminder_3: autoDraw = True
+22.2591 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2604 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2614 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2626 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2638 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2648 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2659 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2672 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2683 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2706 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2717 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2727 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2739 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2750 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2760 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2771 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2784 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2795 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+22.2797 	DEBUG 	Uploading Texture Font fontname to graphics card
+22.2812 	DEBUG 	Upload of Texture Font fontname complete
+22.2951 	EXP 	background_5: autoDraw = False
+22.2951 	EXP 	text: autoDraw = False
+22.2951 	EXP 	trial_counter_3: autoDraw = False
+22.2951 	EXP 	reminder_3: autoDraw = False
+22.2951 	EXP 	background_6: autoDraw = True
+22.2951 	EXP 	inst1textbox_3: autoDraw = True
+67.4769 	DATA 	Mouse: Left button down, pos=(496,481)
+67.5868 	DATA 	Mouse:  Left button up, pos=(496,481)
+88.3545 	DATA 	Mouse: Left button down, pos=(285,379)
+88.4651 	DATA 	Mouse:  Left button up, pos=(285,379)
+90.6107 	DATA 	Keypress: space
+91.3199 	DATA 	Keypress: escape
+91.4705 	EXP 	attention_network_task: status = STOPPED
+91.4749 	EXP 	background_6: autoDraw = False
+91.4749 	EXP 	inst1textbox_3: autoDraw = False
+91.4765 	EXP 	attention_network_task: status = STOPPED
+91.4828 	INFO 	saved data to 'C:\\Users\\NoteBook\\Desktop\\mehrdad projects\\ANT-NL\\1\\attention_network_task-master\\data/204370_attention_network_task_2024-11-18_03h12.38.526.csv'
+91.4840 	INFO 	saved data to C:\Users\NoteBook\Desktop\mehrdad projects\ANT-NL\1\attention_network_task-master\data/204370_attention_network_task_2024-11-18_03h12.38.526.psydat
+92.1218 	DEBUG 	Saving data for attention_network_task ExperimentHandler

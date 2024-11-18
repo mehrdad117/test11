@@ -981,14 +981,14 @@
         <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
-        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="import requests&amp;#10;import json&amp;#10;&amp;#10;# Define the data to be sent&amp;#10;data = {&amp;#10;    &quot;fileName&quot;: &quot;output.csv&quot;,&amp;#10;    &quot;content&quot;: &quot;cue,tar,corrAns,targOrientation,thisN,thisTrialN\nstim1,stim2,right,180,0,1\n&quot;  # Example CSV content&amp;#10;}&amp;#10;&amp;#10;# Google Apps Script Web App URL&amp;#10;url = &quot;https://script.google.com/macros/s/AKfycbxBujdYyZ-8z4CSpRIwKGzlRSDVE27RyfrbrKcdyLH9Jadh-ALRfTB211kjlTyNRWPG/exec&quot;&amp;#10;&amp;#10;# Send the data&amp;#10;response = requests.post(url, data=json.dumps(data), headers={&quot;Content-Type&quot;: &quot;application/json&quot;})&amp;#10;&amp;#10;# Print the response&amp;#10;print(response.json())&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
-        <Param val="import requests&amp;#10;import json&amp;#10;&amp;#10;# Define the data to be sent&amp;#10;data = {&amp;#10;    &quot;fileName&quot;: &quot;output.csv&quot;,&amp;#10;    &quot;content&quot;: &quot;cue,tar,corrAns,targOrientation,thisN,thisTrialN\nstim1,stim2,right,180,0,1\n&quot;  # Example CSV content&amp;#10;}&amp;#10;&amp;#10;# Google Apps Script Web App URL&amp;#10;url = &quot;https://script.google.com/macros/s/AKfycbxBujdYyZ-8z4CSpRIwKGzlRSDVE27RyfrbrKcdyLH9Jadh-ALRfTB211kjlTyNRWPG/exec&quot;&amp;#10;&amp;#10;# Send the data&amp;#10;response = requests.post(url, data=json.dumps(data), headers={&quot;Content-Type&quot;: &quot;application/json&quot;})&amp;#10;&amp;#10;# Print the response&amp;#10;print(response.json())&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
         <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
         <Param val="False" valType="bool" updates="None" name="disabled"/>
         <Param val="code" valType="code" updates="None" name="name"/>

@@ -3,6 +3,7 @@
  *******************************/
 
 import { core, data, sound, util, visual, hardware } from './lib/psychojs-2024.2.4.js';
+import { Appwrite } from 'https://cdn.jsdelivr.net/npm/appwrite@6.0.0/+esm';
 const { PsychoJS } = core;
 const { TrialHandler, MultiStairHandler } = data;
 const { Scheduler } = util;

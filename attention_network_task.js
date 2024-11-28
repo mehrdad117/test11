@@ -1496,7 +1496,7 @@ function EndRoutineBegin(snapshot) {
     // update component parameters for each repeat
     inst1textbox_3.setText('لطفا تا ذخیره نتایج صبر کنید...');
     // Include Appwrite setup
-    const client = new Appwrite.Client();
+    const client = new Appwrite();
     const storage = new Appwrite.Storage(client);
     
     // Configure Appwrite client

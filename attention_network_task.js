@@ -1494,6 +1494,48 @@ function EndRoutineBegin(snapshot) {
     EndMaxDurationReached = false;
     // update component parameters for each repeat
     inst1textbox_3.setText('لطفا تا ذخیره نتایج صبر کنید...');
+    // Include Appwrite setup
+    const client = new Appwrite.Client();
+    const storage = new Appwrite.Storage(client);
+    
+    // Configure Appwrite client
+    client
+      .setEndpoint('https://cloud.appwrite.io/v1') // Replace with your Appwrite endpoint
+      .setProject('67477aca001b97f3e7b6') // Replace with your Appwrite project ID
+      .setKey('standard_a8e445deb667c121843f64e876d25f189861512ca6003847a11bc9d58997ff53df783b51cfe981266128c5b6bfd3eb67e61b217a8f1034b9609860d14da1a68a00a6ff4e55279ebfef0ca9848f86e913aa952e33bb9fa4e9d4799b50f455d3c2cf314d357bfebc809ed32a68dba6a44b1519ccfeca07ae4b60aab5173febc465'); // Replace with your Appwrite API key
+    
+    // Disable downloading results to browser
+    psychoJS._saveResults = 0;
+    
+    // Generate filename for results
+    let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';
+    
+    // Extract data object from experiment
+    let dataObj = psychoJS._experiment._trialsData;
+    
+    // Convert data object to CSV
+    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => {
+        return Object.values(it).toString();
+    }).join('\n');
+    
+    // Create a Blob from the CSV data
+    let csvBlob = new Blob([data], { type: 'text/csv' });
+    
+    // Prepare form data for file upload
+    let formData = new FormData();
+    formData.append('file', csvBlob, filename);
+    
+    // Save the file to Appwrite Storage
+    storage.createFile('674782600013827874cb', 'unique()', formData)
+      .then(response => {
+        console.log('File saved to Appwrite:', response);
+        quitPsychoJS(); // End the experiment
+      })
+      .catch(error => {
+        console.error('Failed to save file to Appwrite:', error);
+        quitPsychoJS(); // End the experiment even if save fails
+      });
+    
     psychoJS.experiment.addData('End.started', globalClock.getTime());
     EndMaxDuration = null
     // keep track of which components have finished
@@ -1572,27 +1614,6 @@ function EndRoutineEnd(snapshot) {
       }
     }
     psychoJS.experiment.addData('End.stopped', globalClock.getTime());
-    let outputData = {
-        headers: ["cue", "tar", "corrAns", "targOrientation", "thisN", "thisTrialN", "thisRepN", "trials.thisRepN", "trials.thisTrialN", "trials.thisN", "trials.thisIndex", "thisRow.t", "notes", "instr.started", "startresp.started", "inst1textbox.started", "instr.stopped", "instr2.started", "startresp2.started", "inst1textbox_2.started", "instr2.stopped", "fixation.started", "image.started", "trial_counter_2.started", "reminder.started", "image.stopped", "trial_counter_2.stopped", "reminder.stopped", "fixation.stopped", "trial.started", "text_fp1.started", "cues.started", "fixationshort.started", "trial_counter.started", "reminder_2.started", "text_fp2.started", "text_fp1.stopped", "cues.stopped", "target.started", "resp.started", "fixationshort.stopped", "participant", "session", "date", "expName", "psychopyVersion", "frameRate", "expStart"],
-        rows: [
-            // Add trial data rows here as arrays
-        ]
-    };
-    
-    // Add your rows programmatically here (loop through trials, etc.)
-    
-    // Send data to Google Apps Script
-    fetch('https://script.google.com/macros/s/AKfycbxCv3vSZzdPwzjB8iGzLeroj-Oj8FSnNAVZzTWmwokvrOErR6HMMDd3UtZ2TFrTN6O_/exec', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(outputData)
-    })
-    .then(response => response.json())
-    .then(data => console.log(data))
-    .catch(error => console.error('Error:', error));
-    
     // the Routine "End" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset();
     
